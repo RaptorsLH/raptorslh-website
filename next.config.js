@@ -1,3 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-module.exports = nextConfig;
+const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: '/',
+        destination: '/site.html',
+      },
+    ]
+  },
+}
+
+module.exports = nextConfig
