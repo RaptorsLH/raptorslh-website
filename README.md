@@ -1,3 +1,3 @@
 # Raptors Linehaul Website
 
-Claude HTML replacement packaged for Vercel/Next.js.
+Claude HTML converted for Vercel/Next.js.
